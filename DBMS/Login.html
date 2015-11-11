@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>13F-8043</title>
+<style type="text/css">
+
+body
+{
+	background-color:#CCC;margin:44px 0px 0px 0px;
+/*
+        background-image: url("d:/pics/Hacking/matrix.jpg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-attachment: fixed;
+        margin-right: 200px;
+*/
+
+}
+
+/*
+form
+{
+           text-align:center;
+}
+input
+{
+           float:right;
+           clear:both;
+}
+*/
+
+div#topdiv
+{
+		position:fixed;
+		top:0px;
+		left:0px;
+		width:100%;
+		color:white;
+                background:#649090;
+		padding:20px;
+                /*float:right;
+                font-style:italic;*/
+                font-size:15px;  
+		
+}
+
+div#bottomdiv
+{
+		position:fixed;
+		bottom:0px;
+		left:0px;
+		width:100%;
+		color:#CCC;
+		background:#5599BB;
+		padding:20px;
+}
+p.thicker
+{
+            /*font-wight:900;*/
+            position:absolute;
+            color:white;
+            bottom:-40px;
+            right:500px;
+            text-align:center;
+}
+
+h1.heading
+{
+           position:absolute;
+           color:white;
+           top:150px;
+           right:800px;
+}
+
+h2.heading2
+{
+           position:absolute;
+           color:white;
+           top:200px;
+           right:810px;
+}
+
+span.pswrd
+{
+           font-style:italic;
+           font-size:17px;
+}
+
+input.email,input.pswrd
+{
+            border:solid 1px white;
+            margin:0 auto;
+            border-radius:05px;
+            width:15%;
+            height:20px;
+}
+input.email:focus{
+      border-style: solid;
+    border-color:blue;
+outline:no;
+}
+
+input.button
+{
+            background-color:#77ADC9;
+            color:white;
+            border:none 1px #CCC;
+            border-radius:05px;
+            padding:05px;
+            text-shadow:0 0 2px black;
+}
+input.button:hover{
+background-color:#5599BB;
+}
+
+
+</style>
+
+
+<!--html comment
+<img src="d:/pics/hacking/skull.jpg" width="300px" height="180px">
+<img src="d:/pics/hacking/matrix.jpg" width="300px" height="180px">
+<img src="d:/pics/hacking/matrix2.jpg" width="300px" height="180px">
+<img src="d:/pics/hacking/oshit.jpg" width="300px" height="180px">
+<img src="d:/pics/hacking/mind.jpg" width="300px" height="180px">
+<img src="d:/pics/hacking/mm.jpg" width="300px" height="180px">
+<img src="d:/pics/hacking/m.jpg" width="300px" height="180px">
+<img src="d:/pics/hacking/anonymus.jpg" width="300px" height="180px">
+-->
+
+
+<script type="text/javascript">
+            var image1=new Image() 
+            image1.src="d:/pics/hacking/social.jpg"
+            var image2=new Image()
+            image2.src="d:/pics/hacking/a1.jpg"
+            var image3=new Image()
+            image3.src="d:/pics/hacking/a2.jpg"
+            var image4=new Image()
+            image4.src="d:/pics/hacking/a3.jpg"
+            document.write("hello world")
+</script>
+
+</head>
+
+
+
+<body>
+
+<div id="topdiv">
+<!--<span style="padding-left:50px">Fast Hub</span>-->
+
+<img src="d:/pics/hacking/fast.jpg" style="position:absolute;top:10px;right:250px;width:80px;height:60px">
+
+
+<!--<form action="action_page.php" name="inputform">-->
+<!--<form method="get" action="d:/page2.html">-->
+
+<form name="login">         
+         <!--&nbsp;&nbsp;Email:&nbsp;&nbsp;&nbsp;&nbsp; Password: -->
+
+         <span class="pswrd">&nbsp;  Email<span style="padding-left:187px">Password</span></span><br>
+               <input class="email" type="email" name="Email" placeholder="Email" size="25" required <!--style="text-indent:5em"-->
+         <span style="padding-left:10px">
+               <input class="pswrd" type="password" name="password" placeholder="Password" minLength="5" maxLength="15" size="25" required>
+         </span>
+         <span style="padding-left:10px">
+               <input class="button" type="submit" name="Login" onclick="check(this.form)" value="Log in">
+         </span>
+
+</form>
+
+</div>
+
+                         <h1 class="heading">Welcome to Fast-Hub</h1><br>
+                         <h2 class="heading2">Connect with your Friends</h2>
+                         <p class="thicker">Copyright &copy 2015 All Right Reserved: Fasthub.com</p>
+
+<img src="d:/pics/hacking/social.jpg" width="1400" height="600" name="slide">
+
+<script type="text/javascript">
+     
+     function check(form)
+     {
+        if(form.Email.value=="muhammadahmada188@gmail.com" && form.password.value=="123456"){
+            window.open('d:/page2.html')
+     }
+        else{
+            alert("Error Password or Username")     
+     }
+     }
+function fName_Changed(fName)
+{
+document.getElementById('name').style.borderColor='#e52213';
+document.getElementById('name').style.border='solid';
+}   
+
+var step=1
+     function slideit()
+     {
+       document.images.slide.src=eval("image"+step+".src")
+       if(step<4)
+                 step++
+       else
+                 step=1
+       setTimeout("slideit()",2500)
+     }
+
+slideit()
+
+</script>
+
+
+</body>
+</html>

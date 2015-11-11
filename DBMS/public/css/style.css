@@ -1,0 +1,146 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:verdana;
+}
+#wrapper{
+	width:1348px;
+	margin:auto;
+	margin-left:0px;
+	overflow:hidden;
+	position:relative;
+}
+
+#header{
+	width:1320px;
+	margin:auto;
+	height:30px;
+	background-color:#3078A0;
+	color:white;
+	padding:15px;
+	overflow:hidden;
+	position:fixed;
+}
+#login{
+	float:right;
+	margin-left:40px;
+	width:800px;
+	overflow:hidden;
+}
+.input{
+	margin-top:7px;
+	width:550px;
+	float:right;
+	margin-left:100px;
+}
+.input input{
+	border-radius:4px;
+	margin-left:-1px;
+	margin-bottom:5px;
+	width:180px;
+    height:19px;
+	padding:.3px;
+}
+.input button{
+	margin-left:5px;
+	background-color:#77ADC9;
+    color:white;
+    border:none 1px #CCC;
+    border-radius:04px;
+	padding:03px;
+    text-shadow:0 0 2px black;
+	
+}
+.input button:hover{
+	background-color:#5599BB;
+}
+#logo{
+	float:right;
+	margin-top:-50px;
+	margin-right:900px;
+	position:relative;
+}
+#logo img{
+	margin-top:7px;
+	width:55px;
+	height:45px;
+	margin-right:200px;
+}
+#pics p{
+	position:absolute;
+	text-align:center;
+	bottom:10px;
+	right:500px;
+	color:white;
+}
+#pics h1{
+	 position:absolute;
+     color:white;
+     top:150px;
+     right:800px;
+}
+#pics h2{
+	position:absolute;
+    color:white;
+    top:200px;
+    right:810px;
+}
+#signup-box{
+	border:2px solid white;
+	border-radius:5px;
+	width:150px;
+	height:100px;
+	position:absolute;
+	top:90px;
+	right:100px;
+	padding:20px;
+	background-color:white;
+}
+#signup-box h3{
+	color:black;
+	font-size:20px;
+	margin-top:-10px;
+	position:absolute;
+	margin-left:35px;
+	text-align:center;
+}
+hr{
+	position:absolute;
+	margin:auto;
+	top:45px;
+	width:150px;
+	opacity:0.3;
+}
+.signup-input{
+	width:250px;
+	height:20px;
+	margin:auto;
+	position:relative;
+	margin-left:-5px;
+	top:40px;
+}
+.signup-input input{	
+  width:250px;
+  height:20px;
+  padding:3px;
+  border-radius:4px;
+}
+.signup-input button{
+	margin-top:5px;
+	margin-left:10px;
+	font-size:15px;
+	width:150px;
+	height:30px;
+	background-color:#77ADC9;
+    color:white;
+    border:none 1px #CCC;
+    border-radius:04px;
+	padding:03px;
+    text-shadow:0 0 2px black;
+}
+.signup-input button:hover{
+	background-color:#5599BB;
+}
+.custom{
+	margin-top:15px;
+}
